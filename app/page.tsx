@@ -81,7 +81,7 @@ export default function Home() {
 )
 }
 
-function BarChart(props) {
+function BarChart(props: any) {
 return (
   <div {...props}>
     <ResponsiveBar
