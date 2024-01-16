@@ -32,9 +32,9 @@ export default function Home() {
           <p className="mt-4 mb-4 text-gray-600 dark:text-gray-400">
             Understanding the risks and prevention methods can help protect athletes from long-term damage.
           </p>
-          <Image
+          <img
             alt="Brain Health Infographic"
-            src="https://www.trbImage.com/Image-57523524/turbine/la-muhammad-ali-vs-sonny-liston-1965-world-heavyweight-title-20160603/"
+            src="https://www.trbimg.com/img-57523524/turbine/la-muhammad-ali-vs-sonny-liston-1965-world-heavyweight-title-20160603/"
             className="w-full h-100 object-cover rounded-lg"
           />
           <p className="image-caption mt-4">Muhammad Ali, the legendary boxer, experienced brain injuries throughout his career, particularly due to repeated head trauma sustained in the ring. These injuries contributed to his later development of Parkinson's disease, highlighting the long-term consequences of boxing-related brain damage.</p>
@@ -56,7 +56,7 @@ export default function Home() {
             Symptoms of brain damage from boxing can include headaches, memory loss, difficulty thinking, mood swings,
             and more.
           </p>
-          <Image
+          <img
                 alt="Brain Health Infographic"
                 src="https://talksport.com/wp-content/uploads/sites/5/2023/07/Inoue-Right-Hand.jpg"
                 className="w-full h-100 object-cover rounded-lg"
@@ -70,7 +70,7 @@ export default function Home() {
           <p className="text-gray-600 dark:text-gray-400">
             Preventive measures include proper training, wearing protective gear, and regular medical check-ups.
           </p>
-          <Image
+          <img
                 alt="Protective Gear"
                 src="https://www.shutterstock.com/image-photo/set-taekwondo-equipment-on-wooden-600nw-1096455665.jpg"
                 className="w-full h-100 object-cover rounded-lg"
