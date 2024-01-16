@@ -4,6 +4,7 @@ import Link from "next/link"
 import { ResponsiveBar } from "@nivo/bar"
 
 export default function Home() {
+
   return (
     <div className="flex flex-col min-h-screen overflow-y-auto snap snap-y">
     <header className="flex items-center justify-between px-6 py-4 bg-white dark:bg-gray-800 fixed top-0 w-full z-50">
@@ -89,7 +90,12 @@ export default function Home() {
         <p className="mt-4 text-gray-400">
           Join us in promoting safe boxing practices and protecting the health of athletes.
         </p>
-        <button className="mt-8 px-8 py-3 bg-white text-gray-900 rounded-lg">Learn More</button>
+        <button
+          className="mt-8 px-8 py-3 bg-white text-gray-900 rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-105 active:scale-110"
+        >
+          Learn More
+        </button>
+
       </div>
     </footer>
   </div>
